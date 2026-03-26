@@ -3,7 +3,7 @@ cask "iron" do
   name "iron"
   desc "Scaffold production-grade Kubernetes development environments"
   homepage "https://github.com/dag7/ironplate"
-  version "0.0.3"
+  version "0.0.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "iron" do
   on_macos do
     on_intel do
       url "https://github.com/dag7/ironplate/releases/download/v#{version}/iron_darwin_amd64.tar.gz"
-      sha256 "dbee2e0c5799497c8d08dd38e1dc196165fd8926f7ccb8804eefc1a3b3f922ee"
+      sha256 "74c7f6550306acb586c9a2d687ddf24cf90cd285f4094a4bdcbb9e4238abe75f"
     end
     on_arm do
       url "https://github.com/dag7/ironplate/releases/download/v#{version}/iron_darwin_arm64.tar.gz"
-      sha256 "15e15c11d1c69d8b61d03f7fa5ecb5920f2f149e295f0b57edaae2ec9b52631c"
+      sha256 "70dd618a05b1bb85a8ba0812c1d74a149bcaaf16d99a3ba8bbe0821aff2c4c54"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dag7/ironplate/releases/download/v#{version}/iron_linux_amd64.tar.gz"
-      sha256 "49cf0a5c7c05f6750019ebc77400533fd9a89e3bf077bf65d3e840d92e0d28ac"
+      sha256 "74fdb3e6062e27cda89f28e739883546f3cc572ce8ecc5fc6bda6e14f13e97f6"
     end
     on_arm do
       url "https://github.com/dag7/ironplate/releases/download/v#{version}/iron_linux_arm64.tar.gz"
-      sha256 "65f1fc054a88cea7c84caa6560cf602fd35f4f171e6ae42125ebfa05accad12b"
+      sha256 "c299461dce7d564f98cd343ddf2d1d573140260933bc135186804c4b523feae8"
     end
   end
 
